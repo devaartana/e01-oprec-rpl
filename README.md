@@ -154,5 +154,5 @@ Dalam desain ini, jika dilihat dari relasinya user memiliki relasi one-to-many k
   - Memiliki Go  
 - Menjalankan
   ```
-    go run cmd/main/*
+    go run cmd/api/*
   ```
