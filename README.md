@@ -147,3 +147,12 @@ Dalam desain ini, jika dilihat dari relasinya user memiliki relasi one-to-many k
     ```
 - Redirect [GET]
   - Endpoint: localhost:8000/{slug}
+
+## Menjalankan server secara local 
+- Prasyarat
+  - Menggati database url
+  - Memiliki Go  
+- Menjalankan
+  ```
+    go run cmd/main/*
+  ```
