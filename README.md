@@ -102,7 +102,21 @@ Dalam desain ini, jika dilihat dari relasinya user memiliki relasi one-to-many k
     ```
   - Response Success(200)
     ```
-      message
+    [
+        {
+          "slug": "xyz123",
+          "original_url": "https://example.com/long-url-example",
+          "created_at": ISODate(""),
+          "expired_date": ISODate(""),
+    
+        },
+        {
+          "slug": "abc456",
+          "original_url": "https://example2.com/another-url",
+          "created_at": ISODate(""),
+          "expired_date": ISODate(""),
+        }
+    ]
     ```
 - Update link [PUT]
   - Endpoint: localhost:8000/api/links
